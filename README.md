@@ -30,12 +30,23 @@ I am a Data Science graduate from the University of Maryland Baltimore County wi
 | **Data Engineering** | PySpark, AWS S3, AWS Glue, SAP BW/HANA, Hadoop, Databricks, SQL Server |
 | **Analytics & BI** | Power BI, Tableau, QuickSight, Excel, Reporting Automation |
 | **Machine Learning** | Scikit-learn, Random Forest, Gradient Boosting, K-Means, Feature Engineering, Model Evaluation |
-| **AI & GenAI** | Llama 3.3, Groq, RAG, NLP, MongoDB Vector Search, Prompt Engineering |
-| **Tools** | Git, Docker, Streamlit, Jupyter Notebook |
+| **AI & GenAI** | AI Agents, Claude API, Llama 3.3, Groq, RAG, NLP, MongoDB Vector Search, Prompt Engineering |
+| **Tools** | Git, Docker, Playwright, Streamlit, Jupyter Notebook |
 
 ---
 
 ## 🚀 Featured Projects
+
+### 🧪 [Spec-Driven AI QA Agent](https://github.com/arshdeep1399/agentic-qa-agent)
+
+**Python | Playwright | LLMs (Groq / Claude) | Test Automation**
+
+- Built an autonomous agent that reads a product spec, turns it into 36 testable requirements, and runs 42 normal, negative and edge-case scenarios in a real browser
+- Verifies side effects (balances, transaction records, persistence) instead of trusting UI success messages; found 6 defects in a demo banking app, 4 of them critical
+- Hybrid design: deterministic checks, with the LLM used only for judgement calls; ~3 minutes and $0 per run on Groq's free tier (≈3¢ at Claude prices)
+- Self-healing locators and a "chaos" mode that renames UI labels mid-run without changing a single verdict
+
+---
 
 ### ⚖️ [AI Legal Advisor](https://github.com/arshdeep1399/ai-legal-advisor)
 
